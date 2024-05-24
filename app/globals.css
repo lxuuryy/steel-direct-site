@@ -83,3 +83,57 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
+
+.perspective:hover {
+  transform: rotateX(90deg);
+}
+
+.perspective:hover + .main {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.perspective:hover + .container {
+  opacity: 1;
+}
+
+.perspective {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.75s cubic-bezier(0.76, 0, 0.24, 1);
+
+}
+
+.perspective p {
+  transition: transform 0.75s cubic-bezier(0.76, 0, 0.24, 1), opacity 0.75s cubic-bezier(0.76, 0, 0.24, 1);
+  pointer-events: none;
+  text-transform: uppercase;
+}
+
+.perspective p:nth-of-type(2) {
+  position: absolute;
+  transform-origin: bottom center;
+  transform: rotateX(-90deg) translateY(13px);
+  opacity: 0;
+}
+
+.perspective:hover p:nth-of-type(1) {
+  transform: translateY(-90%);
+  opacity: 0;
+}
+
+.link{
+  perspective: 190px;
+  perspective-origin: bottom;
+}
+
+.perspective:hover  p:nth-of-type(2) {
+  opacity: 1;
+
+ 
+}

@@ -16,15 +16,13 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+        <h1 className="heading lg:max-w-[45vw] bg-gradient-to-r from-white to-indigo-950 bg-clip-text text-transparent ">
+        Ready to boost your business with our top-quality steel?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+        Connect with us now to explore how we can empower your ambitions
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:wilsonwong@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -34,7 +32,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Adrian Hajdin
+          Copyright © 2024 Aussie steel Direct
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
