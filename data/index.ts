@@ -52,7 +52,7 @@ export const gridItems = [
     title: "Affordable steel at uncompromised quality.",
     description: "The Steelworks Insight",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-[-20px] bottom-0 md:w-96 w-60 rounded-xl",
+    imgClassName: "absolute right-[-130px] sm:right-[-20px] bottom-0 md:w-96 w-60 rounded-xl",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/tool-steel.jpg",
     spareImg: "/grid.svg",

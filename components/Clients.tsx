@@ -9,7 +9,7 @@ const Clients = () => {
   return (
     <section id="testimonials" className="py-20">
       <h1 className="heading">
-      Your one stop shop for all your steel needs.
+        Your one stop shop for all your steel needs.
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10">
