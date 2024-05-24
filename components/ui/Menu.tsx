@@ -14,6 +14,10 @@ function Menu({isOpen, setIsOpen}: Props) {
             link: '/'
         },
         {
+            name: 'Products',
+            link: '/products'
+        },
+        {
             name: 'About',
             link: '/about'
         },
@@ -21,10 +25,7 @@ function Menu({isOpen, setIsOpen}: Props) {
             name: 'Contact',
             link: '/contact'
         },
-        {
-            name: 'Careers',
-            link: '/careers'
-        }
+        
     ]
     const variants = {
         open: {width: 310,
